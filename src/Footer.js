@@ -2,10 +2,11 @@ import React from 'react'
 
 class Footer extends React.Component {
   render() {
-    return( 
-    <div>
-       Name: {this.props.fullname}  Nickname: {this.props.nickname}
-    </div>
+    return (
+      <div>
+        <p>Name: {this.props.fullname}</p>
+        <p>Nickname: {this.props.nickname}</p>
+      </div>
     )
   }
 }

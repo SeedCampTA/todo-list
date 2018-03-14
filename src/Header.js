@@ -1,11 +1,8 @@
 import React from 'react'
 
-class Header extends React.Component{
+class Header extends React.Component {
   render() {
-    console.log('Props : ', this.props)
-    return (
-      <h1>{this.props.text}</h1>
-    )
+    return <h1>{this.props.title}</h1>
   }
 }
 
