@@ -23,11 +23,11 @@ class TodoList extends React.Component {
     return (
       <div>
         <h2>Todo List</h2>
-        <ul>
+        <div>
           { this.state.todos.map((todo, index) => {
             return <TodoItem key={index} text={todo} />
           }) }
-        </ul>
+        </div>
         <form onSubmit={this.addTodo}>
           <input
             type="text"
