@@ -6,4 +6,8 @@ class Header extends React.Component {
   }
 }
 
+Header.defaultProps = {
+  title: 'Hello',
+}
+
 export default Header
